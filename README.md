@@ -25,6 +25,7 @@ To edit the `api.yml` definition file, you can use a tool such as [Swagger-Edito
 Refer to [Doing API-First development][] for more details.
 
 ## Building for production
+sudo ./mvnw package -Pprod verify jib:dockerBuild -DskipTests
 
 To optimize the trial application for production, run:
 
@@ -102,3 +103,4 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 
 hello for a change
 once again
+2nd
